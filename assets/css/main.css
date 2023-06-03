@@ -1,0 +1,68 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  padding: 0.8rem 0;
+  background-color: #c4dfdf;
+  color: #f8f6f4;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  background-color: #e3f4f4;
+  color: #212a3e;
+  padding: 0.8rem 0;
+}
+#hero img {
+  height: 366px;
+  width: 366px;
+  border-radius: 100%;
+}
+
+#about {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 10vw;
+}
+#about h2 {
+  font-family: "Roboto Slab", serif;
+  margin: 0.6rem 0;
+}
+#about #story {
+  max-width: 50vw;
+}
+#about #info .detail p {
+  margin: 0.4rem 0;
+}
+#about #info .detail p span {
+  color: #526d82;
+}
+
+#contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.4rem;
+}
+#contacts #links {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.2rem;
+}
+#contacts #links img {
+  width: 128px;
+  height: 128px;
+  margin: 0 1.8rem;
+}
+
+/*# sourceMappingURL=main.css.map */

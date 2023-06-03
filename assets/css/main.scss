@@ -1,0 +1,84 @@
+$color1: #c4dfdf;
+$color2: #d2e9e9;
+$color3: #e3f4f4;
+$color4: #f8f6f4;
+$color5: #212a3e;
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  padding: 0.8rem 0;
+
+  background-color: $color1;
+  color: $color4;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  background-color: $color3;
+  color: $color5;
+  padding: 0.8rem 0;
+
+  img {
+    height: 366px;
+    width: 366px;
+    border-radius: 100%;
+  }
+}
+
+#about {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 10vw;
+
+  h2 {
+    font-family: "Roboto Slab", serif;
+    margin: 0.6rem 0;
+  }
+
+  #story {
+    max-width: 50vw;
+  }
+
+  #info {
+    .detail {
+      p {
+        margin: 0.4rem 0;
+
+        span {
+          color: #526d82;
+        }
+      }
+    }
+  }
+}
+
+#contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.4rem;
+
+  #links {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2rem;
+
+    img {
+      width: 128px;
+      height: 128px;
+      margin: 0 1.8rem;
+    }
+  }
+}
